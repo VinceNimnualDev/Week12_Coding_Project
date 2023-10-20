@@ -1,0 +1,54 @@
+{
+  "tvShows": [
+    {
+      "id": 1,
+      "title": "The Haunting of Hill House",
+      "genre": "Horror"
+    },
+    {
+      "id": 2,
+      "title": "The Boys",
+      "genre": "Action"
+    },
+    {
+      "id": 3,
+      "title": "Demon Slayer",
+      "genre": "Anime"
+    },
+    {
+      "id": 4,
+      "title": "Rick and Morty",
+      "genre": "Comedy"
+    },
+    {
+      "id": 5,
+      "title": "Fringe",
+      "genre": "Science Fiction"
+    },
+    {
+      "id": 6,
+      "title": "Game of Thrones",
+      "genre": "Adventure"
+    },
+    {
+      "id": 7,
+      "title": "Last of Us",
+      "genre": "Drama"
+    },
+    {
+      "id": 8,
+      "title": "Psych",
+      "genre": "Crime"
+    },
+    {
+      "id": 9,
+      "title": "Midnight Club",
+      "genre": "Suspense"
+    },
+    {
+      "id": 10,
+      "title": "The Rings of Power",
+      "genre": "Fantasy"
+    }
+  ]
+}
