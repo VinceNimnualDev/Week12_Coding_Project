@@ -1,5 +1,5 @@
 // Declare variable for API URL endpoint 
-const tvShowsURL = 'http://localhost:3000/tvShows'; 
+const tvShowsURL = 'http://localhost:3000/tvShows';
 
 // Get show data from API to populate table using $.ajax
 function displayTVShows () {
@@ -13,6 +13,7 @@ function displayTVShows () {
       // console.log('TV show data:', tvShows); // Log TV Show (data) to the console
       // Loop through data and append it to the table rows
       tvShows.forEach(function (tvShow) {
+        console.log(tvShow)
         $('tbody').append(
           $('<tr>').append(
             $('<td>').text(tvShow.id),
@@ -131,3 +132,5 @@ function refreshShowTable() {
       });
     });
   }
+
+  displayTVShows()
